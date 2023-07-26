@@ -1,0 +1,109 @@
+
+@media screen and (max-width: 600px) {
+
+    nav{
+        width: 20vw;
+        height: 61vh;
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+        
+    }
+    .configuracion{
+        transform: translateY(-15vh);
+        font-size: 7vh;
+    }
+    .ImagenLogo{
+        width: 17vw;
+        height: 9vh;
+        transform: translateY(10vh);
+    }
+    .TituloNav{
+        font-size: 2vh;
+        transform: translateY(5vh);
+    }
+    .cuentanav{
+        text-align: center;
+        font-size: 2.5vh;
+        z-index: 3;
+        transform: translateY(-25vh);
+    }
+    .Div1{
+        padding-right: 0;
+        padding-top: 0;
+        width: 80vw;
+        height: 60vh;
+        flex-direction: column;
+    }
+    .divespacio{
+        display: flex;
+        width: 20vw;
+        height: 60vh;
+    }
+    .estructura1{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 60vh;
+    }
+    article{
+        width: 80vw;
+        height: 20vh;
+    }
+    .stream1{
+        flex-direction: row;
+    }
+    .rubiustitulo{
+        font-size: 3vh;
+        transform: translateY(-1vh);
+    }
+    .imagenstream1{
+        transform: translateY(0vh);
+        width: 50vw;
+        height: 17vh;
+    }
+    .verstream1{
+        transform: translate(-65vw,5vh);
+    }
+    .articulo2{
+        flex-direction: row;
+    }
+    .t2,.t1{
+        font-size: 1.2vh;
+    }
+    .buscador{
+        display: none;
+    }
+    .buscadormedia{
+        display: flex;
+        padding-left: 10vw;
+        transform: translateY(5vh);
+    }
+    .buscadormedia:hover{
+        color:  #2C2B2B;
+    }
+    .buscadosdiv{
+        padding-left: 15vw;
+        transform: translateY(-4vh);
+    }
+    .Div2{
+        width: 100vw;
+        height: 40vh;
+    }
+    .imagencategoria{
+        transform: translateY(10vh);
+        width: 13vw;
+        height: 20vh;
+    }
+    .imagenescat{
+        padding-left: 1vw;
+    }
+    .categoriastitulo{
+        display: none;
+    }
+    .categoriastitulo1{
+        font-size: 2.5vh;
+        transform: translateX(40vw);
+    }
+
+}
